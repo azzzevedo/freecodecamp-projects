@@ -11,16 +11,13 @@
 :root {
     --font1: 'Poppins', sans-serif;
     --font2: 'Rubik', sans-serif;
-    --color1: #4000F5;
-    --color2: #3A00DB;
-    --color3: #3000B5;
-    --color4: #1F0075;
-    --color5: #0E0036;
-    --color-cover: linear-gradient(115deg, #4000F5a2, #0e0036f5);
+    --color-bg-form: #454545bc;
+    --color-background: #0E0036;
+    --color-cover: linear-gradient(115deg, #4000F5a2, #0e0036);
 }
 
 body {
-    background: var(--color5) url('../images/workers-meeting.jpg') no-repeat center center fixed;
+    background: var(--color-background) url('../images/workers-meeting.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
     color: #ffffff;
@@ -33,4 +30,23 @@ div.background-cover {
 
 h1#title {
     text-shadow: 0px 0px 1px #000000;
+    text-align: center;
 }
+
+p#description {
+    text-shadow: 0px 0px 1px #000000;
+    text-align: center;
+}
+
+form#survey-form {
+    background-color: var(--color-bg-form);
+    max-width: 30vw;
+    margin: auto;
+    padding: 30px;
+}
+
+.field {
+    display: block;
+}
+
+input
