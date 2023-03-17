@@ -9,65 +9,78 @@
 </head>
 <body>
     <div class="background-cover">
-        <h1 id="title">Form</h1>
-        <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam cumque nemo perspiciatis ducimus dolore nulla, animi, inventore quam iusto magnam numquam, adipisci in. Ipsa, fugiat aspernatur commodi molestiae illo eius?</p>
+        <header>
+            <h1 id="title" class="header">Survey Form</h1>
+            <p id="description" class="header">Thank you for helping us to improve the platform</p>
+        </header>
         <form action="" method="post" id="survey-form">
-            <div>
-                <label for="name" id="name-label">Name</label>
-                <input class="form-field" type="text" name="iname" id="name" placeholder="Enter your name" required>
-            </div>
-            <div>
-                <label for="email" id="email-label">Email</label>
-                <input class="form-field" type="email" name="email" id="email" placeholder="youremail@example.domain" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" required>
-            </div>
-            <div>
-                <label for="number" id="number-label">Age</label>
-                <input class="form-field" type="number" name="number" id="number" placeholder="Enter your age" min="13" max="120" required>
-            </div>
-            <div>
-                <label for="dropdown">What is your profission?</label>
-                <select title="profission" name="dropdown" id="dropdown"> 
-                    <option value="select" selected disabled>-- Select your profission --</option>
-                    <option value="professor">Professor</option>
-                    <option value="student">Student</option>
-                    <option value="programmer">Programmer</option>
-                    <option value="None">None of these</option>
-                </select>
-            </div>
-            <div>
-                <p>What do you think about us?</p>
-
-                <input type="radio" name="rating-radio" id="rating-low"><label for="rating-low">Bad</label>
-
-                <input type="radio" name="rating-radio" id="rating-neutral"><label for="rating-neutral">Neutral</label>
-
-                <input type="radio" name="rating-radio" id="rating-good"><label for="rating-good">Good</label>
-
-                <input type="radio" name="rating-radio" id="rating-awesome"><label for="rating-awesome">Awesome</label>
-            </div>
-            <div>
-                <p></p>
-
-                <input type="checkbox" name="html-tec" id="html-tec"><label for="html-tec">HTML</label>
-
-                <input type="checkbox" name="css-tec" id="css-tec"><label for="css-tec">CSS</label>
-
-                <input type="checkbox" name="js-tec" id="js-tec"><label for="js-tec">JavaScript</label>
-
-                <input type="checkbox" name="php-tec" id="php-tec"><label for="php-tec">PHP</label>
-
-                <input type="checkbox" name="python-tec" id="python-tec"><label for="python-tec">Python</label>
-
-                <input type="checkbox" name="java-tec" id="java-tec"><label for="java-tec">Java</label>
-
-                <input type="checkbox" name="rust-tec" id="rust-tec"><label for="rust-tec">Rust</label>
-            </div>
-            <div>
-                <label for="suggestions">Comment here more about your experience or changes we can make</label>
-                <textarea name="suggestions" id="suggestions" cols="30" rows="10" maxlength="1000"></textarea>
-            </div>
-            <input class="submit-button" type="submit" value="Submit">
-            <input class="clear-button" type="reset" value="Clear">
+                <div class="field-sections">
+                    <label for="name" id="name-label">Name</label>
+                    <input class="form-field" type="text" name="iname" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="field-sections">
+                    <label for="email" id="email-label">Email</label>
+                    <input class="form-field" type="email" name="email" id="email" placeholder="youremail@example.domain" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" required>
+                </div>
+                <div class="field-sections">
+                    <label for="number" id="number-label">Age</label>
+                    <input class="form-field" type="number" name="number" id="number" placeholder="Enter your age" min="13" max="120" required>
+                </div>
+                <div class="field-sections">
+                    <label for="dropdown">What is your profession?</label>
+                    <select title="profession" name="dropdown" id="dropdown" class="form-field">
+                        <option value="select" selected disabled>-- Select your profession --</option>
+                        <option value="profession">Professor</option>
+                        <option value="student">Student</option>
+                        <option value="programmer">Programmer</option>
+                        <option value="None">Other</option>
+                    </select>
+                </div>
+                <div class="field-sections">
+                    <p class="form-p">What do you think about us?</p>
+                    <label for="rating-low">
+                        <input type="radio" name="rating-radio" id="rating-low" value="bad"> Bad
+                    </label>
+                    <label for="rating-neutral">
+                        <input type="radio" name="rating-radio" id="rating-neutral" value="neutral"> Neutral
+                    </label>
+                    <label for="rating-good">
+                        <input type="radio" name="rating-radio" id="rating-good" value="good"> Good
+                    </label>
+                    <label for="rating-awesome">
+                        <input type="radio" name="rating-radio" id="rating-awesome" value="awesome"> Awesome
+                    </label>
+                </div>
+                <div class="field-sections">
+                    <p class="form-p">What are your favorite technologies?</p>
+                    <label for="html-tec">
+                        <input type="checkbox" name="html-tec" id="html-tec" value="html"> HTML
+                    </label>
+                    <label for="css-tec">
+                        <input type="checkbox" name="css-tec" id="css-tec" value="css"> CSS
+                    </label>
+                    <label for="js-tec">
+                        <input type="checkbox" name="js-tec" id="js-tec" value="javascript"> JavaScript
+                    </label>
+                    <label for="php-tec">
+                        <input type="checkbox" name="php-tec" id="php-tec" value="php"> PHP
+                    </label>
+                    <label for="python-tec">
+                        <input type="checkbox" name="python-tec" id="python-tec" value="python"> Python
+                    </label>
+                    <label for="java-tec">
+                        <input type="checkbox" name="java-tec" id="java-tec" value="java"> Java
+                    </label>
+                    <label for="rust-tec">
+                        <input type="checkbox" name="rust-tec" id="rust-tec" value="rust"> Rust
+                    </label>
+                </div>
+                <div class="field-sections">
+                    <label for="suggestions" class="field">Comment more about your experience or changes we can make</label>
+                    <textarea name="suggestions" id="suggestions" cols="30" rows="10" maxlength="1000" placeholder="Enter your comment here..."></textarea>
+                </div>
+                <input id="submit" type="submit" value="Submit" class="submit-button">
+                <input id="reset" type="reset" value="Clear" class="clear-button">
         </form>
     </div>
 </body>
