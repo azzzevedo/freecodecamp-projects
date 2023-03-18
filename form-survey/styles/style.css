@@ -24,7 +24,6 @@
 body {
     background: var(--color-background) url('../images/workers-meeting.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: 100vh;
     color: #ffffff;
 }
 
@@ -56,7 +55,6 @@ p.form-p {
 form#survey-form {
     background-color: var(--color-bg-form);
     max-width: 640px;
-    min-width: 300px;
     margin: auto;
     padding: 45px 40px 50px 40px;
     border-radius: 5px;
