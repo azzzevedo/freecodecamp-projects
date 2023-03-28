@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+body {
+    background-color: white;
+    color: #333333;
+}
+
+div.body-content {
+    background-color: #EEEEEE;
+    min-width: 400px;
+    margin: 30px 8px;
+    border-radius: 6px;
+    padding: 15px;
+}
+
+header {
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 30px;
+    padding-bottom: 13px;
+    font-size: 2.5em;
+}
+
+header > p {
+    padding-top: 8px;
+    padding-bottom: 18px;
+}
+
+figure {
+    background-color: #fff;
+    text-align: center;
+}
+
+figure > img {
+    display: block;
+    margin: auto;
+    padding: 10px 10px;
+    max-width: 100%;
+}
+
+figure > figcaption {
+    padding: 1px 10px 17px 10px;
+    line-height: 24px;
+}
+
+main > h1 {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 50px 0;
+}
+
+div.timeline {
+    margin: 0 auto;
+    max-width: 560px;
+}
+
+ul {
+    padding-bottom: 30px;
+}
+
+ul > li {
+    padding: 10px 0;
+    line-height: 25px;
+}
+
+div.quote {
+    margin-left: -20px;
+    font-style: italic;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+div.quote > p {
+    padding-top: 20px;
+}
+
+
+
+p#tribute-info {
+    font-size: 1.2em;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+a {
+    color: #87638F;
+}
+
+a:hover {
+    color: #6d207e;
+}
+
+a:active {
+    color: #40004e;
+}
