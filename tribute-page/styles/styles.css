@@ -18,7 +18,6 @@ body {
 
 div.body-content {
     background-color: #EEEEEE;
-    min-width: 400px;
     margin: 30px 8px;
     border-radius: 6px;
     padding: 15px;
@@ -79,8 +78,7 @@ ul > li {
 div.quote {
     margin-left: -20px;
     font-style: italic;
-    padding-top: 10px;
-    padding-bottom: 40px;
+    padding: 10px 20px 40px 20px;
 }
 
 div.quote > p {
