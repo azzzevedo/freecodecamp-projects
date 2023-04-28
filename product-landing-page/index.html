@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legaltech Arcade</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/media-queries.css">
+    <script src="https://kit.fontawesome.com/ad321a3386.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dragscroll/0.0.8/dragscroll.min.js"></script>
+</head>
+<body>
+    <!-- IMAGE LINKS
+        Logo: https://images-platform.99static.com//j215gUdsHFwgIp4D4o-zpqsXUjw=/88x98:935x945/fit-in/500x500/99designs-contests-attachments/119/119436/attachment_119436552
+        
+        Atari 2600: https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Atari-2600-Wood-4Sw-Set.png/2560px-Atari-2600-Wood-4Sw-Set.png
+
+        Sega Master System: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sega-Master-System-Set.png/1280px-Sega-Master-System-Set.png
+        
+        GameCube: https://upload.wikimedia.org/wikipedia/commons/2/2b/GameCube-Console-Set.png
+        
+        Nintendo 64: https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Nintendo-64-Console-FL.png/2560px-Nintendo-64-Console-FL.png
+        
+        PlayStation: https://upload.wikimedia.org/wikipedia/commons/9/95/PSX-Console-wController.png
+        
+        PlayStation 2: https://upload.wikimedia.org/wikipedia/commons/1/11/PS2-Slim-Console-Set.png
+        
+        Xbox: https://upload.wikimedia.org/wikipedia/commons/e/e0/Xbox_console_transparent.png
+        
+        PlayStation 3: https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/PS3-Slim-Console-Vert.png/800px-PS3-Slim-Console-Vert.png
+        
+        Xbox 360: https://upload.wikimedia.org/wikipedia/commons/a/a8/Xbox-360-Pro-wController.png
+        
+        PlayStation 4: https://upload.wikimedia.org/wikipedia/commons/a/a8/Sony-PlayStation-4-PS4-DualShock-4.png
+        
+        Xbox One: https://t.ctcdn.com.br/Xrc-qtWeQ2S8BWm1ehm42EmuAfA=/fit-in/400x400/filters:format(webp):fill(transparent):watermark(wm/prd.png,-32p,center,1,none,15)/i413568.png
+        
+        PlayStation 5: https://gmedia.playstation.com/is/image/SIEPDC/console-right_@1x?fmt=png-alpha&scl=1
+
+        Xbox Series X: https://assets.xboxservices.com/assets/fb/d2/fbd2cb56-5c25-414d-9f46-e6a164cdf5be.png?n=XBX_A-BuyBoxBGImage01-D.png
+    -->
+    <header id="header">
+        <img src="https://images-platform.99static.com//j215gUdsHFwgIp4D4o-zpqsXUjw=/88x98:935x945/fit-in/500x500/99designs-contests-attachments/119/119436/attachment_119436552" alt="Legaltech Arcade Logo" id="header-img">
+        <div class="nav-bar-container">
+            <h1>Legaltech Arcade</h1>
+            <nav id="nav-bar">
+                <a href="#features" class="nav-links">Features</a>
+                <a href="#games" class="nav-links">Games</a>
+                <a href="#consoles" class="nav-links">Consoles</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="sign-up">
+            <form action="https://www.freecodecamp.com/email-submit" id="form" method="post">
+                <h1>The best prices for your fun</h1>
+                <input type="email" name="email" id="email" placeholder="enter your e-mail">
+                <input type="submit" value="Submit" id="submit">
+            </form>
+        </section>
+        <section id="features">
+            <div class="f-container">
+                <div class="f-icon">
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="f-text">
+                    <h1 class="f-title">
+                        Well Preserved Consoles
+                    </h1>
+                    <p class="f-description">
+                        We ensure all consoles are reworked and tested prior to shipment.
+                    </p>
+                </div>
+            </div>
+            <div class="f-container">
+                <div class="f-icon">
+                    <i class="fa-solid fa-truck"></i>
+                </div>
+                <div class="f-text">
+                    <h1 class="f-title">
+                        Fast Shipping
+                    </h1>
+                    <p class="f-description">
+                        We make sure you receive your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.
+                    </p>
+                </div>
+            </div>
+            <div class="f-container">
+                <div class="f-icon">
+                    <i class="fa-solid fa-clock"></i>
+                </div>
+                <div class="f-text">
+                    <h1 class="f-title">
+                        90 day warranty
+                    </h1>
+                    <p class="f-description">
+                        We guarantee the right to exchange in cases of malfunction during the period of 90 days.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="games">
+            <div id="iframe-container">
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/J2tShT59KNc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section id="consoles">
+            <div class="item-card">
+                <header>
+                    <h1 class="item-c-name">
+                        Atari 2600
+                    </h1>
+                </header>
+                <div class="img-c-container">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Atari-2600-Wood-4Sw-Set.png/2560px-Atari-2600-Wood-4Sw-Set.png" alt="Atari 2600">
+                </div>
+                <h1 class="item-c-price">
+                    $100
+                </h1>
+                <p class="item-c-description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores vitae tenetur expedita minima voluptatum ea odio culpa quos suscipit ipsum animi, aliquam delectus veritatis omnis unde dignissimos aperiam quasi nulla?
+                </p>
+                <button>Select</button>
+            </div>
+            <div class="item-card">
+                <header>
+                    <h1 class="item-c-name">
+                        Sega Master System
+                    </h1>
+                </header>
+                <div class="img-c-container">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sega-Master-System-Set.png/1280px-Sega-Master-System-Set.png" alt="Sega Master System">
+                </div>
+                <h1 class="item-c-price">
+                    $90
+                </h1>
+                <p class="item-c-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet recusandae adipisci ipsam explicabo quia saepe reprehenderit delectus quod ipsum, sequi consequatur cumque possimus officiis totam esse nobis animi nihil molestias!
+                </p>
+                <button>Select</button>
+            </div>
+            <div class="item-card">
+                <header>
+                    <h1 class="item-c-name">
+                        GameCube
+                    </h1>
+                </header>
+                <div class="img-c-container">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/GameCube-Console-Set.png" alt="GameCube">
+                </div>
+                <h1 class="item-c-price">
+                    $75
+                </h1>
+                <p class="item-c-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nihil ab itaque ipsa similique et odit doloribus laborum adipisci quaerat perferendis, modi voluptate quis minima sunt officiis quo repudiandae laudantium.
+                </p>
+                <button>Select</button>
+            </div>
+            <div class="item-card">
+                <header>
+                    <h1 class="item-c-name">
+                        Nintendo 64
+                    </h1>
+                </header>
+                <div class="img-c-container">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Nintendo-64-Console-FL.png/2560px-Nintendo-64-Console-FL.png" alt="Nintendo 64">
+                </div>
+                <h1 class="item-c-price">
+                    $120
+                </h1>
+                <p class="item-c-description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde doloribus quos recusandae qui quisquam omnis, tempore impedit itaque laudantium! Quis excepturi vero eum ipsa similique. Provident recusandae fugiat architecto quod.
+                </p>
+                <button>Select</button>
+            </div>
+            <div class="item-card">
+                <header>
+                    <h1 class="item-c-name">
+                        PlayStation
+                    </h1>
+                </header>
+                <div class="img-c-container">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/PSX-Console-wController.png" alt="PlayStation">
+                </div>
+                <h1 class="item-c-price">
+                    $60
+                </h1>
+                <p class="item-c-description">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit repellat sit minus dolor nobis vel fugiat quibusdam earum, adipisci alias magnam consequatur, cum dolorum, perferendis nostrum corrupti assumenda aperiam minima!
+                </p>
+                <button>Select</button>
+            </div>
+            <div class="item-card">
+                <header>
+                    <h1 class="item-c-name">
+                        PlayStation 2
+                    </h1>
+                </header>
+                <div class="img-c-container">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/11/PS2-Slim-Console-Set.png" alt="PlayStation 2">
+                </div>
+                <h1 class="item-c-price">
+                    $70
+                </h1>
+                <p class="item-c-description">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa totam molestiae error sapiente perspiciatis deleniti. Similique doloribus debitis quis, quod in nihil, nulla amet porro itaque excepturi a deleniti magnam!
+                </p>
+                <button>Select</button>
+            </div>
+            <div class="item-card">
+                <header>
+                    <h1 class="item-c-name">
+                        Xbox
+                    </h1>
+                </header>
+                <div class="img-c-container">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Xbox_console_transparent.png" alt="Xbox">
+                </div>
+                <h1 class="item-c-price">
+                    $60
+                </h1>
+                <p class="item-c-description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla quibusdam ipsum suscipit fuga sint culpa eligendi molestiae eaque odit praesentium id, obcaecati omnis explicabo. Earum quasi nihil rerum ducimus quod?
+                </p>
+                <button>Select</button>
+            </div>
+            <div class="item-card">
+                <header>
+                    <h1 class="item-c-name">
+                        PlayStation 3
+                    </h1>
+                </header>
+                <div class="img-c-container">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/PS3-Slim-Console-Vert.png/800px-PS3-Slim-Console-Vert.png" alt="PlayStation 3">
+                </div>
+                <h1 class="item-c-price">
+                    $150
+                </h1>
+                <p class="item-c-description">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia temporibus error natus, veritatis praesentium quisquam eos ratione, quas explicabo velit pariatur, autem quos debitis accusantium? Eaque, necessitatibus ullam. Illo, ut?
+                </p>
+                <button>Select</button>
+            </div>
+            <div class="item-card">
+                <header>
+                    <h1 class="item-c-name">
+                        Xbox 360
+                    </h1>
+                </header>
+                <div class="img-c-container">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Xbox-360-Pro-wController.png" alt="Xbox 360">
+                </div>
+                <h1 class="item-c-price">
+                    $140
+                </h1>
+                <p class="item-c-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quas! Nostrum ad voluptatum voluptatibus blanditiis tempora officia accusamus necessitatibus quaerat quae similique odio exercitationem, omnis possimus. Soluta dicta a voluptate.
+                </p>
+                <button>Select</button>
+            </div>
+            <div class="item-card">
+                <header>
+                    <h1 class="item-c-name">
+                        PlayStation 4
+                    </h1>
+                </header>
+                <div class="img-c-container">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Sony-PlayStation-4-PS4-DualShock-4.png" alt="PlayStation 4">
+                </div>
+                <h1 class="item-c-price">
+                    $299
+                </h1>
+                <p class="item-c-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eius minus assumenda delectus architecto sint porro minima repudiandae praesentium labore est dolor perferendis placeat, consectetur fugit quasi error consequatur vel.
+                </p>
+                <button>Select</button>
+            </div>
+            <div class="item-card">
+                <header>
+                    <h1 class="item-c-name">
+                        Xbox One
+                    </h1>
+                </header>
+                <div class="img-c-container">
+                    <img src="https://t.ctcdn.com.br/Xrc-qtWeQ2S8BWm1ehm42EmuAfA=/fit-in/400x400/filters:format(webp):fill(transparent):watermark(wm/prd.png,-32p,center,1,none,15)/i413568.png" alt="Xbox One">
+                </div>
+                <h1 class="item-c-price">
+                    $270
+                </h1>
+                <p class="item-c-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi et doloribus molestiae excepturi earum praesentium laboriosam molestias nobis ut perferendis dolorum deleniti, quod rem cupiditate eum amet dolore asperiores aspernatur.
+                </p>
+                <button>Select</button>
+            </div>
+            <div class="item-card">
+                <header>
+                    <h1 class="item-c-name">
+                        PlayStation 5
+                    </h1>
+                </header>
+                <div class="img-c-container">
+                    <img src="https://gmedia.playstation.com/is/image/SIEPDC/console-right_@1x?fmt=png-alpha&scl=1" alt="PlayStation 5">
+                </div>
+                <h1 class="item-c-price">
+                    $599
+                </h1>
+                <p class="item-c-description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius unde non consequatur dolore autem. Ea reiciendis vel delectus et tempore quis enim esse deleniti non hic ex, placeat, officia asperiores.
+                </p>
+                <button>Select</button>
+            </div>
+            <div class="item-card">
+                <header>
+                    <h1 class="item-c-name">
+                        Xbox Series X
+                    </h1>
+                </header>
+                <div class="img-c-container">
+                    <img src="https://assets.xboxservices.com/assets/fb/d2/fbd2cb56-5c25-414d-9f46-e6a164cdf5be.png?n=XBX_A-BuyBoxBGImage01-D.png" alt="Xbox Series X">
+                </div>
+                <h1 class="item-c-price">
+                    $580
+                </h1>
+                <p class="item-c-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores praesentium repudiandae libero quam magni? Cum ad eos animi rerum id odio nulla hic illo modi odit molestiae, sed quisquam eum.
+                </p>
+                <button>Select</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <div class="policy">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="copyright">
+                <p>Copyright 2023, Legaltech Arcade</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
