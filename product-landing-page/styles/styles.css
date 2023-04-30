@@ -160,7 +160,6 @@ div#iframe-container > iframe {
     left: 0;
     width: 100%;
     height: 100%;
-    border-radius: 5px;
     border: 1px solid transparent;
     border-image: linear-gradient(115deg, var(--l-blue), var(--darker-blue));
     border-image-slice: 1;
