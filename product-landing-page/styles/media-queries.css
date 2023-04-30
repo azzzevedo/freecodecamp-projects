@@ -7,3 +7,60 @@
     - Large devices (laptops/desktops): >= 992px;
     - Extra large devices (large laptops and desktops): >= 1200px;
 */
+
+@media (min-width: 600px) {
+    header#header img {
+        width: 120px;
+    }
+
+    header#header h1 {
+        font-size: 2.4em;
+        margin: 10px auto;
+    }
+
+    nav#nav-bar {
+        margin: 20px auto;
+    }
+}
+
+@media (min-width: 768px){
+    main {
+        margin: 0;
+    }
+
+    section {
+        max-width: 800px;
+    }
+
+    section#sign-up, section#features {
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 992px) {
+    section#consoles {
+        width: 100%;
+    }
+
+    div.c-cards {
+        display: flex;
+        overflow: hidden;
+        overflow-y: hidden;
+        width: 98vw;
+        margin: auto;
+    }
+
+    div.item-card {
+        position: relative;
+        box-sizing: content-box;
+        border: 1px solid rgb(150, 150, 150);
+        border-radius: 5px;
+        margin: 10px;
+        padding: 10px 10px 50px 10px;
+    }
+
+    button {
+        position: absolute;
+        bottom: 10px;
+    }
+}
