@@ -42,6 +42,15 @@
         margin: 0;
     }
 
+    div.f-container {
+        display: grid;
+        grid-template-columns: 35px 1fr;
+    }
+
+    div.f-icon {
+        display: block;
+    }
+
     section#consoles {
         width: 100%;
     }
