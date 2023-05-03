@@ -52,7 +52,7 @@ section#projects {
     padding: 150px 0;
 }
 
-h1.project-title {
+h1#project-title {
     text-align: center;
     padding-bottom: 50px;
     font-size: 2.4em;
