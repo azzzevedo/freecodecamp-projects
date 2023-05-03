@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/media-queries.css">
     <title>Personal Portfolio</title>
+    <script src="https://kit.fontawesome.com/ad321a3386.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -16,33 +19,35 @@
     </header>
     <main>
         <section id="welcome-section">
-            <h1>Hello there, I am João</h1>
-            <p>an aspiring web developer</p>
+            <div class="welcome-items">
+                <h1>Hello there, I am João</h1>
+                <p>an aspiring web developer</p>
+            </div>
         </section>
         <section id="projects">
-            <h1 id="project-title"></h1>
+            <h1 class="project-title">Here is some of my projects</h1>
             <div class="projects-container">
-                <div>
-                    <img src="images/survey-form_1-1.png" alt="">
-                    <a href="https://azzzevedo.github.io/freecodecamp-projects/form-survey/" rel="external" target="_blank" class="project-link">
-                        Form Survey
+                <div class="project-card">
+                    <a href="https://azzzevedo.github.io/freecodecamp-projects/survey-form/" rel="external" target="_blank" class="project-link">
+                        <img src="images/survey-form_1-1.png" alt="Survey Form Page">
+                        Survey Form
                     </a>
                 </div>
-                <div>
-                    <iframe src="https://azzzevedo.github.io/freecodecamp-projects/tribute-page/" frameborder="0"></iframe>
+                <div class="project-card">
                     <a href="https://azzzevedo.github.io/freecodecamp-projects/tribute-page/" rel="external" target="_blank" class="project-link">
+                        <img src="images/tribute-page.PNG" alt="Tribute Page to Dr. Norman Borlaug">
                         Tribute Page
                     </a>
                 </div>
-                <div>
-                    <iframe src="https://azzzevedo.github.io/freecodecamp-projects/technical-documentation-page" frameborder="0"></iframe>
+                <div class="project-card">
                     <a href="https://azzzevedo.github.io/freecodecamp-projects/technical-documentation-page" rel="external" target="_blank" class="project-link">
+                        <img src="images/technical-documentation-page.PNG" alt="JavaScript technical documentation page">
                         Technical Documentation Page
                     </a>
                 </div>
-                <div>
-                    <iframe src="https://azzzevedo.github.io/freecodecamp-projects/product-landing-page/" frameborder="0"></iframe>
+                <div class="project-card">
                     <a href="https://azzzevedo.github.io/freecodecamp-projects/product-landing-page/" rel="external" target="_blank" class="project-link">
+                        <img src="images/landing-page.png" alt="videogame landing page">
                         Landing Page
                     </a>
                 </div>
@@ -53,13 +58,15 @@
                 <h1>See more about my projects</h1>
                 <q>A journey of a thousand miles begins with a single step.</q>
                 <div>
-                    <i></i><a href="" rel="external" target="_blank" id="profile-link">GitHub</a>
+                    <i class="fa-brands fa-github"></i><a href="https://github.com/azzzevedo" rel="external" target="_blank" id="profile-link">GitHub</a>
                 </div>
             </div>
         </section>
     </main>
     <footer>
-        <a href="https://www.freecodecamp.org/">&copy Created for freeCodeCamp</a>
+        <p>
+            &copy Created for <a href="https://www.freecodecamp.org/">freeCodeCamp</a>
+        </p>
     </footer>
 </body>
 </html>
